@@ -1,5 +1,11 @@
 Modern JavaScript Development
 
+<small>@toddjlarsen</small>
+
+<small>[http://github.com/todoubled](http://github.com/todoubled/modern-javascript-development)</small>
+
+<small>Groupon</small>
+
 ---
 
 
@@ -39,14 +45,14 @@ Modern JavaScript Development
 
 
 # What tools exist?
-- CSS preprocessing - Stylus, Less, Sass
-- JS preprocessing - CoffeeScript, ClojureScript, Dart
-- Integration testing - Casper.js, Zombie.js, Selenium
-- Unit testing - Jasmine.js, Mocha + Chai, QUnit
-- Dependency management - Browserify.js, stitch, Require.js
-- File watching - watchman, wach, guard
-- Test running - Testem, grunt, make
-- API mocking - Express.js, sinatra, flatiron
+- CSS preprocessing - [Stylus](http://learnboost.github.com/stylus/), [Less](http://lesscss.org/), [Sass](http://sass-lang.com/)
+- JS preprocessing - [CoffeeScript](http://coffeescript.org/), [ClojureScript](https://github.com/clojure/clojurescript), [Dart](http://www.dartlang.org/)
+- Integration testing - [Casper.js](http://casperjs.org/), [Zombie.js](http://zombie.labnotes.org/), [Selenium](http://seleniumhq.org/)
+- Unit testing - [Jasmine.js](http://pivotal.github.com/jasmine/), [Mocha](http://visionmedia.github.com/mocha/) + [Chai](http://chaijs.com/), [QUnit](http://qunitjs.com/)
+- Dependency management - [Browserify.js](http://browserify.org/), [stitch](https://github.com/sstephenson/stitch), [Require.js](http://requirejs.org/)
+- File watching - [watchman](https://github.com/dfjones/watchman), [wach](https://github.com/quackingduck/wach), [guard](https://github.com/guard/guard)
+- Test running - [Testem](https://github.com/airportyh/testem), [grunt](http://gruntjs.com/), make
+- API mocking - [Express.js](http://expressjs.com/), [sinatra](http://www.sinatrarb.com/), [flatiron](http://flatironjs.org/)
 ---
 
 
@@ -110,3 +116,40 @@ Modern JavaScript Development
 - CommonJS dependency management with `browserify`
 - Support multiple versions of runtime deps via query string
 - Test A/B variants via query string
+---
+
+
+# HTML?
+- Vanilla + mustache
+- Tiny markup sets
+- Attr-less + presenters
+
+<script src="https://gist.github.com/4536762.js?file=html.mustache"></script>
+---
+
+
+# CSS?
+- Stylus modules
+- Whitespace significant
+- Gradual adoption
+
+<script src="https://gist.github.com/4536762.js?file=css.styl"></script>
+---
+
+
+# JS?
+- CommonJS modules
+- Explicit public interface
+- Explicit dependency graph
+
+<script src="https://gist.github.com/4536762.js?file=search-error.coffee"></script>
+<script src="https://gist.github.com/4536762.js?file=callbacks.coffee"></script>
+---
+
+# Try Harness
+##[http://github.com/todoubled/harness](http://github.com/todoubled/harness)
+##[http://toddjlarsen.com/harness](http://toddjlarsen.com/harness)
+
+@toddjlarsen
+
+github.com/todoubled
